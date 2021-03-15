@@ -1,0 +1,18 @@
+.form {
+    display: flex;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.form input[type='text'] {
+    flex: 10;
+    line-height: 1.4;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+}
+
+.form input[type='submit'] {
+    flex: 2;
+    outline: none;
+}
